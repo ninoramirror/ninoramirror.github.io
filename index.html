@@ -40,24 +40,30 @@
         }
 
         .header-left {
-            flex: 1;
+            flex: 2;
         }
 
         .brand-name {
             font-family: 'Pinyon Script', cursive;
-            font-size: 3.5rem;
+            font-size: 6.5rem;
             color: var(--forest-green);
         }
 
         .header-right {
             flex: 1;
             text-align: right;
+            display: flex;
+            justify-content: flex-end
         }
 
         .logo-img {
-            max-width: 150px;
-            height: auto;
-            filter: grayscale(20%); /* Adds to the "raw" aesthetic */
+            width: 550px;
+            height: 250px;
+            object-fit: fill;
+            filter: grayscale(20%);
+            display: block;
+            margin-left: auto;
+            margin-right: 0; /* Adds to the "raw" aesthetic */
         }
 
         /* --- Gallery Section --- */
@@ -147,7 +153,7 @@
             <h1 class="brand-name">Ninora Mirrors</h1>
         </div>
         <div class="header-right">
-            <img src="pics/logo.png" alt="Ninora Logo" class="logo-img">
+            <img src="pics/logo.jpg" alt="Ninora Logo" class="logo-img">
         </div>
     </header>
 
@@ -190,27 +196,54 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">Rust Arched Mirror</span>
-                    <p class="mirror-price">50 ლარი</p>
+                    <p class="mirror-price">30 ლარი</p>
                 </div>
             </div>
 
             <div class="mirror-card">
                 <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1583847268964-b28dc2f51ac9?auto=format&fit=crop&q=80&w=800" alt="Handcrafted Mirror 5">
+                    <img src="pics/m5.jpg">
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">Minimalist Slate</span>
-                    <p class="mirror-price">$275.00</p>
+                    <p class="mirror-price">50</p>
                 </div>
             </div>
 
             <div class="mirror-card">
                 <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1594041380963-3663a8a0df52?auto=format&fit=crop&q=80&w=800" alt="Handcrafted Mirror 6">
+                    <img src="pics/m6.jpg">
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">The Artisan Full-Length</span>
-                    <p class="mirror-price">$550.00</p>
+                    <p class="mirror-price">50</p>
+                </div>
+            </div>
+ <div class="mirror-card">
+                <div class="image-container">
+                    <img src="pics/m7.jpg">
+                </div>
+                <div class="mirror-info">
+                    <span class="mirror-name">The Artisan Full-Length</span>
+                    <p class="mirror-price">50</p>
+                </div>
+            </div>
+ <div class="mirror-card">
+                <div class="image-container">
+                    <img src="pics/m8.jpg">
+                </div>
+                <div class="mirror-info">
+                    <span class="mirror-name">The Artisan Full-Length</span>
+                    <p class="mirror-price">50</p>
+                </div>
+            </div>
+ <div class="mirror-card">
+                <div class="image-container">
+                    <img src="pics/m9.jpg">
+                </div>
+                <div class="mirror-info">
+                    <span class="mirror-name">The Artisan Full-Length</span>
+                    <p class="mirror-price">50</p>
                 </div>
             </div>
 
