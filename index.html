@@ -6,6 +6,35 @@
     <title>Ninora Mirrors | Handcrafted Artisanal Mirrors</title>
     <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <style>
+
+.brand-description {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+    opacity: 0; 
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 0.8s; 
+}
+
+.brand-description p {
+    font-size: 1.15rem;
+    color: var(--dark-gray);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
         /* --- Color Palette & Variables --- */
         :root {
             --bg-color: #f5f2ed;      /* Soft Beige */
@@ -47,6 +76,7 @@ header {
     font-family: 'Pinyon Script', cursive;
     font-size: 3.5rem;
     color: var(--clay-brown);
+        animation: fadeInTitle 2s ease-out forwards;
     
    
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
@@ -195,6 +225,9 @@ header {
     </header>
 
     <main class="container">
+<div class="brand-description">
+    <p>ჩვენი ხელნაკეთი სარკეები იქმნება სიყვარულით და განსაკუთრებული ყურადღებით დეტალების მიმართ. თითოეული ნამუშევარი უნიკალურია და შეაქვს სიმყუდროვე თქვენს ინტერიერში. შესაძლებელია შეკვეთა სასურველი დიზაინითა და ზომით.</p>
+</div>
         <div class="mirror-grid">
             
             <div class="mirror-card">
