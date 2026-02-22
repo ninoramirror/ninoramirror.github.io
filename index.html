@@ -9,8 +9,8 @@
         /* --- Color Palette & Variables --- */
         :root {
             --bg-color: #f5f2ed;      /* Soft Beige */
-            --clay-brown: #a68a64;
-            --forest-green: #2d3a3a;
+            --clay-brown: #3d3e81;
+            --forest-green: #3d3e81;
             --rust: #8b4513;
             --soft-black: #1a1a1a;
             --dark-gray: #4a4a4a;
@@ -30,23 +30,60 @@
             line-height: 1.6;
         }
 
-        /* --- Header Section --- */
-        header {
-            display: flex;
-            align-items: center;
-            padding: 40px 10%;
-            background-color: var(--bg-color);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
-        }
+       /* --- Header Section --- */
+header {
+    display: flex;
+    align-items: center;
+    padding: 40px 10%;
+    background-color: var(--bg-color);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
 
-        .header-left {
-            flex: 2;
-        }
+.header-left {
+    flex: 2; 
+}
 
-        .brand-name {
+.brand-name {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 3.5rem;
+    color: var(--clay-brown);
+    
+   
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+    letter-spacing: 1px;
+    transition: all 0.4s ease; 
+    display: inline-block;
+    cursor: pointer;
+    
+ 
+    animation: fadeInTitle 2s ease-out;
+}
+
+
+.brand-name:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+@keyframes fadeInTitle {
+    from { 
+        opacity: 0; 
+        transform: translateY(-5px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+
+}        .brand-name {
             font-family: 'Pinyon Script', cursive;
             font-size: 6.5rem;
-            color: var(--forest-green);
+                        display: inline-block;
+            color: #2e3150;
+                        -webkit-background-clip: text;
+    background-clip: text;
+                        
         }
 
         .header-right {
@@ -176,7 +213,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">Raw Clay Rectangle</span>
-                    <p class="mirror-price">80 ლარი</p>
+                    <p class="mirror-price">80.00 ლარი</p>
                 </div>
             </div>
 
@@ -186,7 +223,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">Forest Edge Circular</span>
-                    <p class="mirror-price">50 ლარი</p>
+                    <p class="mirror-price">50.00 ლარი</p>
                 </div>
             </div>
 
@@ -196,7 +233,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">Rust Arched Mirror</span>
-                    <p class="mirror-price">30 ლარი</p>
+                    <p class="mirror-price">30.00 ლარი</p>
                 </div>
             </div>
 
@@ -206,7 +243,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">Minimalist Slate</span>
-                    <p class="mirror-price">50</p>
+                    <p class="mirror-price">50.00 ლარი</p>
                 </div>
             </div>
 
@@ -216,7 +253,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">The Artisan Full-Length</span>
-                    <p class="mirror-price">50</p>
+                    <p class="mirror-price">50.00 ლარი</p>
                 </div>
             </div>
  <div class="mirror-card">
@@ -225,7 +262,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">The Artisan Full-Length</span>
-                    <p class="mirror-price">50</p>
+                    <p class="mirror-price">50.00 ლარი</p>
                 </div>
             </div>
  <div class="mirror-card">
@@ -234,7 +271,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">The Artisan Full-Length</span>
-                    <p class="mirror-price">50</p>
+                    <p class="mirror-price">50.00 ლარი</p>
                 </div>
             </div>
  <div class="mirror-card">
@@ -243,7 +280,7 @@
                 </div>
                 <div class="mirror-info">
                     <span class="mirror-name">The Artisan Full-Length</span>
-                    <p class="mirror-price">50</p>
+                    <p class="mirror-price">50.00 ლარი</p>
                 </div>
             </div>
 
